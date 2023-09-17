@@ -5,13 +5,14 @@
 body{
     background-image: url('images');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h2{
     text-align: center;
     position: absolute;
     top: 0;
-    margin-right: 45%;
+    margin-right: 20%;
     margin-top:10px ;
 }
 
@@ -33,6 +34,8 @@ p{
     justify-content: center;
     align-items: center;
     font-size:xx-large;
+    position: relative;
+    left: 70px;
 }
 
 button{
@@ -41,12 +44,14 @@ button{
     left: -30%;
     margin-right: 10px;
     border: 2px solid burlywood;
+    position: relative;
+    left: -40px;
 }
 
 button:last-child{
     position: relative;
     top: 35%;
-    left: -55%;
+    left: -38%;
 }
 
 button:hover{
